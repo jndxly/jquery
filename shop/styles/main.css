@@ -285,3 +285,95 @@ html .hide{
 	padding:5px 10px 0;
 	width:165px;
 }
+
+.jnCatainfo h3{
+	border-bottom:1px solid #eeeeee;
+	height:24px;
+	line-height:24px;
+	widht:164px;
+}
+
+.jnCatainfo ul{
+	float:left;
+	padding:0 2px 8px;
+}
+
+.jnCatainfo li{
+	color:#AEADAE;
+	float:left;
+	height:24px;
+	line-height:24px;
+	width:79px;
+	overflow:hidden;
+	position:relative;
+}
+
+.jnCatainfo li a {
+	color:#444444;
+}
+
+.jnCatainfo li a:hover{
+	color:#008cd7;
+	text-decoration:none;
+}
+
+.jnCatainfo li .hot{
+	background:url("../images/hot.gif") no-repeat scroll 0 0 transparent;
+	height:16px;
+	position:absolute;
+	top:0;
+	width:21px;
+}
+
+#jnImageroll{
+	float:left;
+	height:320px;
+	margin: 0 11px 0 0;
+	overflow:hidden;
+	position:relative;
+	width:550px;
+}
+
+#jnImageroll img{
+	position:absolute;
+	left:0;
+	top:0;
+}
+
+#jnImageroll div{
+	bottom:0;
+	overflow:hidden;
+	position:absolute;
+	float:left;
+}
+
+#jnImageroll div a{
+	background-color:#444444;
+	color:#ffffff;
+	display:inline-block;
+	float:left;
+	height:32px;
+	margin-right:1px;
+	overflow:hidden;
+	padding:5px 15px;
+	text-align:center;
+	width:79px;
+}
+
+#jnImageroll div a em{
+	cursor:pointer;
+	display:block;
+	height:16px;
+	overflow:hidden;
+	width:79px;
+}
+
+#jnImageroll .last{
+	margin:0;
+	width:80px;
+}
+
+#jnImageroll a.chos{
+	background:url("../images/adindex.gif") no-repeat center 39px #37a7d7;
+	color:#ffffff;
+}
